@@ -9,6 +9,6 @@ build() {
     cd linux-$VERSION || exit 1
     cp ../.config .
     make -j$(nproc)
-    make
+    make install
     make modules_install
 }
