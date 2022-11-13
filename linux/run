@@ -10,4 +10,5 @@ build() {
     cp ../.config .
     make -j$(nproc)
     make
+    make modules_install
 }
