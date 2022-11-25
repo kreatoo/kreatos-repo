@@ -1,8 +1,8 @@
 #!/bin/sh
 NAME="linux"
-VERSION="5.15.78"
+VERSION="5.15.79"
 SOURCES="https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-$VERSION.tar.xz;https://github.com/kreatoo/kernel-config/raw/main/.config"
-SHA256SUM="0db99f7347a38c27b8c155f3c9c8b260011aea0a4ded85ee95e6095b1e69a499  linux-5.15.78.tar.xz;9f0cfa15cbea218a715f063d8843d854ed96d8071cf3a930918cb7356233979d  .config"
+SHA256SUM="cba39031dbc0eed0785b8afdc8c58cf23df83e47001b2354fa44486ae699c154  linux-5.15.79.tar.xz;9f0cfa15cbea218a715f063d8843d854ed96d8071cf3a930918cb7356233979d  .config"
 DESCRIPTION="Kreato's kernel"
 build() {
     tar -xvf linux-$VERSION.tar.xz
